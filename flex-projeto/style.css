@@ -255,21 +255,28 @@ footer .footer {
 /* mobile - breakpoints */
 
 @media(max-width:992px){
+
     .flex-container{
         flex-direction: column;
     }
     .apresentacao{
         flex-direction: column-reverse;
+        padding-left: 10px;
+        height:auto;
     }
     .apresentacao .texto-apresentacao{
         width:100%;
     }
     #quem-somos{
         flex-direction: column-reverse;
+        padding-bottom:5px;
+        padding-top:5px;
+        height:600px;
     }
     #quem-somos img{
         min-width: 320px;
         margin:auto;
+ 
     }
     .list-servicos{
         flex-direction: column;
@@ -288,5 +295,14 @@ footer .footer {
         margin:auto;
         width:100%;
         margin-bottom: 20px;
+    }
+    .menu{
+        padding-left: 10px;
+        padding-bottom:5px;
+        padding-top:5px;
+    }
+
+    #servicos{
+        align-items: center;
     }
 }
